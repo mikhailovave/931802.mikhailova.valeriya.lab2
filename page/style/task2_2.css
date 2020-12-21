@@ -1,0 +1,40 @@
+*{
+            margin:0;
+            padding:0;
+            line-height: 1.5em;
+        }
+        
+        header{
+            width:100%;
+            background:rgb(234,234,234);
+            height: 100px;
+            
+        }
+        main{
+            display:flex;
+        }
+        .left_column{
+            min-width:25%;
+            max-width:25%;
+        }
+        .left_column div{
+            background:rgb(200,252,152);
+            padding:5px 15px
+        }
+        .right_column{
+            min-width:200px;
+            max-width:200px;
+            background:rgb(253,233,94);
+            padding:5px 15px
+        }
+        .content{padding:10px;}
+        .red{color:red;}
+        footer{
+            width:100%;
+            background:black;
+            text-align: center;
+            padding:5px 0;
+        }
+        footer a{
+            color:gold;
+        }
